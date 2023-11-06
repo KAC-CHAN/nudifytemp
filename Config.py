@@ -1,8 +1,9 @@
+import os
 # Fillout The variables in Config.py further queries @riz4d 0n telegram
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
-API_ID = int(os.environ.get("API_ID"))
-API_HASH = os.environ.get("API_HASH")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "6384743547:AAEol1WS5sbIthOx3Tz2OLLtBUW1CFaVzXA")
+API_ID = int(os.environ.get("API_ID", "26788480"))
+API_HASH = os.environ.get("API_HASH", "858d65155253af8632221240c535c314")
 
 # If You're hosting in VPS replace the following lines 9,10,11 hash symbol and replacing the approriate values on it and put the hash symbol before the lines 3,4,5
 
